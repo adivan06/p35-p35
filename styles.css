@@ -1,0 +1,1065 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: 'IBM bold';
+    src: url('IBMPlexSans-Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'FiraSans';
+    src: url('FiraSansCondensed-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'IBM regular';
+    src: url('IBMPlexSans-Regular.otf');
+}
+
+@font-face {
+    font-family: 'IBM light';
+    src: url('IBMPlexSerif-Light.ttf');  
+}
+
+@font-face {
+    font-family: 'Roboto regular';
+    src: url('RobotoCondensed-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('RobotoSlab-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Minion';
+    src: url('MinionPro-Regular.otf');
+}
+
+@font-face {
+    font-family: 'IBM semibold';
+    src: url('IBMPlexSans-SemiBold.ttf');
+}
+
+@font-face {
+    font-family: 'IBM medium';
+    src: url('IBMPlexSans-Medium.ttf');
+}
+
+@font-face {
+    font-family: 'American';
+    src: url('AmericanTypewriter.ttc');
+}
+
+@font-face {
+    font-family: 'Adobe';
+    src: url('AdobeFnt23.lst');
+}
+
+.p34-p35{
+    display: flex;
+}
+
+.p34{
+    width: 50%;
+}
+
+.p35{
+    width: 50%;
+}
+
+header {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    width: 100%;
+    max-width: 100%;
+    max-height: 60px;
+    overflow: hidden;
+}
+
+.p35-capitol{
+    font-family: 'IBM regular';
+    color: white;
+    background-color: #008E8C;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    padding-right: 5px;
+    height: 40px;
+    width: 7%;
+}
+
+
+
+.p35-titlu {
+    background-color: #FFE596;
+    flex-grow: 1;
+    width: 70%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+    padding-right: 10px;
+}
+
+
+.p35-titlu p{
+    color: rgb(29, 160, 152);
+    display: flex;
+    justify-content: flex-end;
+    margin-left: auto;
+}
+
+.p35-materie{
+    color: #545360;
+    background-color: #FFCB00;
+    width: 23%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+    padding-right: 10px;
+    padding-left: 20px;
+}
+
+.p35-materie p{
+    display: flex;
+    margin-left: auto;
+    font-family: 'IBM regular'; 
+}
+
+
+.p35-container-lectie {
+    display: flex;
+    padding-top: 30px;
+}
+
+.p35-imagine-lectie{
+    height: 150px;
+    width: 280px;
+    padding-left: 20px;
+    padding-top: 15px;
+}
+
+.p35-text-lectie {
+    border: 2px dotted #9DB23D;
+    height: fit-content;
+    max-height: auto;
+    width: fit-content;
+    padding: 10px;
+}
+
+
+.p35-explorare li{
+    padding-top: 10px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.p35-repere h2{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+    color: orange !important;
+    background-color: rgb(255, 240, 192);
+    
+}
+
+.p35-exemplu{
+    margin-left: 20px;
+    background-color: lightyellow;
+}
+
+.blue{
+    color: blue;
+}
+
+.red{
+    color:red;
+}
+
+.orange{
+    color: orange;
+}
+
+.p35-silabe1{
+    width: 260px;
+    height: 40px;
+}
+
+.p35-silabe2{
+    width: 150px;
+    height: 50px;
+}
+
+.p35-paragraf-imagine1{
+    display: flex;
+}
+
+.p35-paragraf-imagine2{
+   display: flex;
+}
+    
+.p35-repere{
+    background-color: lightyellow;
+    margin-top: 15px;
+}
+
+.p35-pentru-inceput{
+    margin-left: 5px;
+}
+
+.p35-container-hiat h4{
+    color: rgb(29, 160, 152);
+    padding-top: 15px;
+    font-family: 'IBM regular';
+    
+}
+
+.p35-container-triftong h2 {
+    color: rgb(29, 160, 152);
+    padding-top: 15px;
+}
+
+.p35-container-aplicatii h2{
+    color: #d24567;
+    font-family: 'IBM regular';
+}
+
+.p35-icon{
+    background-image: url(Icons/svg-image-1.svg);
+    min-width: 30px;
+    width: 30px;
+    height: 30px;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: 24px;
+    border: 2px solid transparent;
+    border-radius: 50%;
+    display: block;
+    background-color: #019593;
+    border-color: #019593;
+}
+
+.p35-icon2{
+    background-image: url(Icons/check.svg);
+    min-width: 30px;
+    width: 30px;
+    height: 30px;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: 24px;
+    border: 2px solid transparent;
+    border-radius: 50%;
+    display: block;
+    background-color: orange;
+    border-color: orange;
+}
+
+.p35-icon3{
+    background-image: url(Icons/aplicatii.svg);
+    min-width: 30px;
+    width: 30px;
+    height: 30px;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: 24px;
+    border: 2px solid transparent;
+    border-radius: 50%;
+    display: block;
+    background-color: #d24567;
+    border-color: #d24567;
+}
+
+.p35-border-div{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    border-bottom: 2px solid #019593;
+    color: #019593;
+    border-color: #019593;
+    margin-top: auto;
+    margin-bottom: 10px;
+}
+
+.p35-container-aplicatii .p35-border-div{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    border-bottom: 2px solid #019593;
+    color: #d24567;
+    border-color: #d24567;
+    margin-top: auto;
+    margin-bottom: 10px;
+}
+
+.p35-flex-content{
+    display: flex;
+    width: 100%;
+    height: auto;
+    align-items: center;
+    padding-top: 10px;
+}
+
+.p35-repere-titlu{
+    color: orange;
+    background-color: rgb(255, 242, 191);
+    display: flex;
+    height: auto;
+    align-items: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+}
+
+.p35-repere-titlu2{
+    font-family: 'IBM regular';
+    font-size: 1.1rem;
+    color: orange;
+    background-color: rgb(255, 242, 191);
+    display: flex;
+    height: auto;
+    align-items: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+}
+
+.p35-explorare-titlu{
+    font-family: 'IBM semibold';
+    color: #019593;
+    font-size: 1.1rem;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.p35-explorare-content{
+    padding: 7px 5px 7px 5px;
+    font-family: IBM regular;
+    font-size: 14px;
+}
+
+
+
+.p35-aplicatii-titlu{
+    font-family: 'IBM semibold';
+    color: #d24567;
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+
+.p35-page-container{
+    margin: 5%;
+    overflow: hidden;
+}
+
+ul {
+    counter-reset: section;
+    list-style: none;
+    
+  }
+
+  .p35-lista-imagine{
+    display: flex;
+  }
+
+  .p35-poezie{
+    display: flex;  
+    flex-direction: column;
+    padding-left: 20px;
+    
+  }
+
+  .p35-doar-poezie{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .p35-poezie-imagine{
+    display: flex;
+  }
+
+  .p35-titlu-poezie{
+    margin-left: 40px;
+  }
+
+  
+
+
+  
+li::before {
+    counter-increment: section;
+    content: "" counter(section) " ";
+    color: #019593;
+    font-weight: bold;
+    padding-right: 10px;
+  }
+
+.p35-container-aplicatii li::before {
+    counter-increment: section;
+    content: "" counter(section) " ";
+    color: #d24567;
+    font-weight: bold;
+    padding-right: 10px;
+  }
+
+  ul li{
+    padding-top: 10px;
+  }
+
+
+  .p35-absolute-div {
+    position: absolute;
+    font-size: 20px;
+    top: auto;
+    margin-top: -20px;
+    width: 160px;
+    height: 35px;
+    z-index: 20;
+    background-color: white;
+    color: #9DB23D;
+}
+
+.p35-numar-pagina{
+    text-align: right;
+    color: #019593;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+table {
+
+    border-collapse: collapse;
+    width: 100%;
+  }
+
+  th{
+    color: #d24567;
+    background-color: #F2D6D5;
+    border: 1px solid white;
+    padding: 8px;
+    height: 10px;
+    font-family: 'IBM regular';
+    font-size: 12px;
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+  
+  td{
+    background-color: #F8E8E8;
+    border: 1px solid white;
+    text-align: left;
+    padding: 8px;
+    height: 1em;
+  }
+
+  .p35-table-div{
+    padding-top: 10px;
+  }
+
+
+
+.point{
+    display: flex;
+    background-color: red;
+    border-radius: 50%;
+    width: 4px;
+    height: 4px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 3px;
+}
+
+.p35-lista{
+    padding-top: 5px;
+    display: flex;
+    align-items: center;
+    width: auto;
+    flex-wrap: wrap;
+    padding-left: 20px;
+}
+
+@media (max-width: 350px){
+    .p35-silabe1{
+        width: auto;
+        height: 40px; 
+        margin: 0 auto;
+        padding-top: 30px;
+    }
+}
+
+
+@media (max-width: 550px) {
+    .p35-titlu{
+        justify-content: center;
+    }
+
+    .p35-materie{
+        justify-content: center;
+        text-align: center;
+    }
+
+    .p35-titlu p{
+        justify-content: center;
+        text-align: center;
+        overflow: hidden;
+        padding: 0;
+    }
+
+    
+
+    .p35-silabe1{
+        width: auto;
+        height: 40px; 
+        margin: 0 auto;
+    }
+
+    .p35-poezie-imagine{
+        display: block;
+    }
+}
+
+    @media (min-width: 900px){
+        .p35-imagine-lectie {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .p35-doar-imagine{
+            margin-left: auto;
+            width: 50%;
+        }
+    }
+
+  @media (max-width: 900px) {
+
+    .p35-imagine-lectie{
+        max-width: 100%;
+        height: auto
+        
+    }
+
+    .p35-materie p{
+        text-align: center;
+        overflow: hidden;
+        padding-bottom: 10px;
+    }
+
+  }
+
+  @media (max-width: 768px){
+    .p35-capitol{
+        width: 20%;
+    }
+}
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: 'IBM bold';
+    src: url('IBMPlexSans-Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'FiraSans';
+    src: url('FiraSansCondensed-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'IBM regular';
+    src: url('IBMPlexSans-Regular.otf');
+}
+
+@font-face {
+    font-family: 'IBM light';
+    src: url('IBMPlexSerif-Light.ttf');  
+}
+
+@font-face {
+    font-family: 'Roboto regular';
+    src: url('RobotoCondensed-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('RobotoSlab-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Minion';
+    src: url('MinionPro-Regular.otf');
+}
+
+@font-face {
+    font-family: 'IBM semibold';
+    src: url('IBMPlexSans-SemiBold.ttf');
+}
+
+@font-face {
+    font-family: 'IBM medium';
+    src: url('IBMPlexSans-Medium.ttf');
+}
+
+@font-face {
+    font-family: 'American';
+    src: url('AmericanTypewriter.ttc');
+}
+
+@font-face {
+    font-family: 'Adobe';
+    src: url('AdobeFnt23.lst');
+}
+
+header {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    width: 100%;
+    max-width: 100%;
+    max-height: 60px;
+    overflow: hidden;
+}
+
+.p34-capitol{
+    font-family: 'IBM regular';
+    color: white;
+    background-color: #008E8C;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    padding-right: 5px;
+    height: 40px;
+    width: 7%;
+}
+
+
+    
+.p34-titlu {
+    background-color: #FFE596;
+    flex-grow: 1;
+    width: 70%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+    padding-right: 10px;
+}
+
+
+
+.p34-titlu p{
+    color: #008E8C;
+    font-weight: bold;
+    display: flex;
+    justify-content: flex-end;
+    margin-left: auto;
+    font-family: 'IBM semibold';
+}
+
+.p34-materie{
+    color: #545360;
+    background-color: #FFCB00;
+    width: 23%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    text-align: left;
+    padding-top: 20px;
+    padding-right: 10px;
+    padding-left: 20px;
+}
+
+.p34-materie p{
+    font-family: 'IBM regular'; 
+}
+
+
+
+.p34-container-lectie {
+    display: flex;
+    padding-top: 30px
+}
+
+.p34-titlu-lectie{
+    font-weight: bold;
+    font-size: 26px;
+    color: #F79F00;
+}
+
+.p34-imagine-lectie{
+    height: 250px;
+    width: 550px;
+    display: block;
+    padding-left: 20px;
+}
+
+.p34-text-lectie {
+    border: 2px dotted #9DB23D;
+    height: fit-content;
+    max-height: auto;
+    width: fit-content;
+    padding: 10px;
+    font-family: 'IBM regular';
+}
+
+
+.p34-explorare li{
+    padding-top: 10px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.p34-repere h2{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+    color: orange !important;
+    background-color: rgb(255, 240, 192);
+    
+}
+
+.p34-exemplu{
+    margin-left: 20px;
+    background-color: lightyellow;
+}
+
+.blue{
+    color: blue;
+}
+
+.red{
+    color:red;
+}
+
+.orange {
+    color: orange;
+}
+
+.p34-silabe1{
+    width: 200px;
+    height: 55px;
+    margin-right: 23%;
+    margin-left: 5%;
+}
+
+.p34-silabe2{
+    width: 200px;
+    height: 55px;
+    margin-left: calc(23% + 23px);
+    margin-right: 5%;
+}
+
+.p34-paragraf-imagine1, .p34-paragraf-imagine2{
+    display: flex;
+}
+
+
+    
+.p34-repere{
+    background-color: lightyellow;
+    margin-top: 15px;
+}
+
+.p34-pentru-inceput{
+    margin-left: 5px;
+}
+
+.p34-container-diftong h4{
+    color: rgb(29, 160, 152);
+    font-weight: normal;
+    font-family: 'IBM regular';
+}
+
+.p34-container-triftong h4 {
+    color: rgb(29, 160, 152);
+    padding-top: 15px;
+    font-weight: normal;
+    font-family: 'IBM regular';
+}
+
+
+.p34-icon{
+    background-image: url(Icons/svg-image-1.svg);
+    min-width: 30px;
+    width: 30px;
+    height: 30px;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: 24px;
+    border: 2px solid transparent;
+    border-radius: 50%;
+    display: block;
+    background-color: #019593;
+    border-color: #019593;
+}
+
+.p34-icon2{
+    background-image: url(Icons/check.svg);
+    min-width: 30px;
+    width: 30px;
+    height: 30px;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: 24px;
+    border: 2px solid transparent;
+    border-radius: 50%;
+    display: block;
+    background-color: orange;
+    border-color: orange;
+}
+
+.p34-icon3{
+    background-image: url(Icons/user.svg);
+    min-width: 30px;
+    width: 30px;
+    height: 30px;
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: 24px;
+    border: 2px solid transparent;
+    border-radius: 50%;
+    display: block;
+    background-color: #9DB23D;
+    border-color: #9DB23D;
+}
+
+.p34-icon4{
+        background-image: url(Icons/search.svg);
+        width: 30px;
+        height: 30px;
+        background-color: orange;
+        position: absolute;
+        margin-left: -35px;
+        cursor: pointer;
+        border-radius: 50%;
+}
+
+.p34-border-div{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    border-bottom: 2px solid #019593;
+    color: #019593;
+    border-color: #019593;
+    margin-top: auto;
+    margin-bottom: 10px;
+}
+
+.p34-flex-content{
+    display: flex;
+    width: 100%;
+    height: auto;
+    align-items: center;
+    padding-top: 5px;
+}
+
+.p34-repere-titlu{
+    color: orange;
+    background-color: rgb(255, 242, 191);
+    display: flex;
+    height: auto;
+    align-items: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+}
+
+.p34-repere-titlu2{
+    font-family: 'IBM regular';
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: orange;
+    background-color: rgb(255, 242, 191);
+    display: flex;
+    height: auto;
+    align-items: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+}
+
+.p34-explorare-titlu{
+    font-family: 'IBM semibold';
+    color: #019593;
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.p34-explorare-content{
+    padding: 5px 3px 5px 3px;
+    font-family: 'IBM regular';
+}
+
+.p34-page-container{
+    margin: 5%;
+}
+
+ul {
+    counter-reset: section;
+    list-style: none;
+    
+  }
+  
+  
+li::before {
+    counter-increment: section;
+    content: "" counter(section) " ";
+    color: #019593;
+    font-weight: bold;
+    padding-right: 10px;
+  }
+
+  .p34-text-lectie li::before {
+    counter-increment: section;
+    content: "" counter(section) " ";
+    color: #9DB23D;
+    font-weight: bold;
+    padding-right: 10px;
+  }
+
+  ul li{
+    padding-top: 10px;
+  }
+
+
+  .p34-absolute-div {
+    position: absolute;
+    font-size: 20px;
+    top: auto;
+    margin-top: -20px;
+    width: 160px;
+    height: 35px;
+    z-index: 20;
+    background-color: white;
+    color: #9DB23D;
+}
+
+.p34-numar-pagina{
+    color: #019593;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+@media (max-width: 450px){
+    .p34-titlu{
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .p34-titlu p{
+        text-align: center;
+        margin-left: 0;
+    }
+
+    
+
+}
+
+
+
+@media (max-width: 550px) {
+    .p34-titlu{
+        justify-content: center;
+    }
+
+    .p34-materie{
+        justify-content: center;
+    }
+
+    .p34-titlu p{
+        justify-content: center;
+        text-align: center;
+        overflow: hidden;
+        padding: 0;
+    }
+
+    .p34-materie p{
+        text-align: center;
+        overflow: hidden;
+    }
+
+
+}
+
+@media (max-width: 768px){
+    .p34-capitol{
+        width: 15%;
+    }
+
+    .p34-silabe1, .p34-silabe2{
+        width: auto;
+        height: 55px; 
+        margin: 0 auto;
+    }
+}
+
+
+  @media (max-width: 900px) {
+    .p34-container-lectie{
+        display:block;
+    }
+
+    .p34-imagine-lectie{
+        max-width: 100%;
+        height: auto;
+        
+    }
+
+    .p34-imagine-principala{
+        padding-top: 15px;
+        padding-bottom: 15px;
+        margin-right: 40px;
+        
+    }
+  }
+
+
+  @media (min-width: 1690px){
+    .p34{
+        border-right: 3px solid grey;
+        padding: 0;
+    }
+
+    .p35{
+        padding: 0;
+    }
+  }
+
+
+  @media (max-width: 1690px){
+    .p34-p35{
+        display: block;
+        margin: 0 auto;
+    }
+
+    .p34, .p35{
+        width: 100%;
+    }
+  }
+
+  @media (min-width: 1000px) and (max-width: 1690px){
+    .p34, .p35{
+        width: 1000px;
+        margin: 0 auto;
+    }
+  }
+
