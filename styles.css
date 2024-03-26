@@ -1010,6 +1010,12 @@ li::before {
         height: 55px; 
         margin: 0 auto;
     }
+
+    .p34-icon4{
+        width: 20px;
+        height: 20px;
+        margin-left: -15px;
+    }
 }
 
 
