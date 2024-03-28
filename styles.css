@@ -995,6 +995,7 @@ li::before {
     .p34-materie p{
         text-align: center;
         overflow: hidden;
+        margin-bottom: 15px;
     }
 
 
