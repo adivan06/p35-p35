@@ -990,6 +990,7 @@ li::before {
         text-align: center;
         overflow: hidden;
         padding: 0;
+        margin-bottom: 15px;
     }
 
     .p34-materie p{
